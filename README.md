@@ -1,4 +1,4 @@
-# reg_sde
+# Langevin equations for landmark image registration with uncertainty
 
 This Python code accompanies the paper "Langevin equations for landmark image registration with
 uncertainty", S. Marsland and T. Shardlow (2016).
