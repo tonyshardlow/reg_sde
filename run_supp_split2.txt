@@ -1,0 +1,171 @@
+0
+exp1 (concentric circles)
+
+ figs/E1_   two ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.1
+    beta   =  20.0
+Set data var =  0.05
+MAP4 solve with 20 steps...
+Optimization terminated successfully.
+         Current function value: 5.856396
+         Iterations: 4
+         Function evaluations: 5
+         Gradient evaluations: 34
+         Hessian evaluations: 0
+Run time 1.4 secs
+Preparing plot...
+Preparing plot...
+...finished.
+exp1 (concentric circles)
+
+ figs/E1_   ten ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.1
+    beta   =  20.0
+Set data var =  0.05
+MAP4 solve with 20 steps...
+Optimization terminated successfully.
+         Current function value: 90.939670
+         Iterations: 3
+         Function evaluations: 4
+         Gradient evaluations: 20
+         Hessian evaluations: 0
+Run time 3.3 secs
+Preparing plot...
+Preparing plot...
+...finished.
+1
+
+ figs/E2_   two ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.0632455532034
+    beta   =  50.0
+Set data var =  0.05
+MAP4 solve with 20 steps...
+Optimization terminated successfully.
+         Current function value: 4.721909
+         Iterations: 3
+         Function evaluations: 4
+         Gradient evaluations: 30
+         Hessian evaluations: 0
+Run time 1.2 secs
+Preparing plot...
+Preparing plot...
+...finished.
+
+ figs/E2_   ten ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.0632455532034
+    beta   =  50.0
+Set data var =  0.05
+MAP4 solve with 20 steps...
+Optimization terminated successfully.
+         Current function value: 19.295169
+         Iterations: 2
+         Function evaluations: 3
+         Gradient evaluations: 12
+         Hessian evaluations: 0
+Run time 1.8 secs
+Preparing plot...
+Preparing plot...
+...finished.
+2
+exp4 (ellipse,wrap)
+Loading from  data/wrap2.txt
+Loading from  data/ellipse2.txt
+(2L, 2L, 30L)
+
+ figs/E4_   two ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.0707106781187
+    beta   =  40.0
+Set data var =  0.05
+MAP4 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 9.335306
+         Iterations: 5
+         Function evaluations: 6
+         Gradient evaluations: 56
+         Hessian evaluations: 0
+Run time 3.8 secs
+Preparing plot...
+Preparing plot...
+...finished.
+exp4 (ellipse,wrap)
+Loading from  data/wrap2.txt
+Loading from  data/ellipse2.txt
+(2L, 2L, 30L)
+
+ figs/E4_   ten ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.0707106781187
+    beta   =  40.0
+Set data var =  0.05
+MAP4 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 64.328064
+         Iterations: 2
+         Function evaluations: 3
+         Gradient evaluations: 12
+         Hessian evaluations: 0
+Run time 3.5 secs
+Preparing plot...
+Preparing plot...
+...finished.
+3
+exp5 (cat to dog etc. from datasets)
+Loading from  data/plane.txt
+Loading from  data/shark.txt
+(2L, 2L, 30L)
+
+ figs/E5_   two ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.1
+    beta   =  20.0
+Set data var =  0.05
+MAP4 solve with 20 steps...
+Optimization terminated successfully.
+         Current function value: 24.004675
+         Iterations: 5
+         Function evaluations: 9
+         Gradient evaluations: 49
+         Hessian evaluations: 0
+Run time 2.9 secs
+Preparing plot...
+Preparing plot...
+...finished.
+exp5 (cat to dog etc. from datasets)
+Loading from  data/plane.txt
+Loading from  data/shark.txt
+(2L, 2L, 30L)
+
+ figs/E5_   ten ============================================ 
+
+Set lambda =  0.1
+    sigma  =  0.1
+    beta   =  20.0
+Set data var =  0.05
+MAP4 solve with 20 steps...
+Optimization terminated successfully.
+         Current function value: 199.244942
+         Iterations: 4
+         Function evaluations: 5
+         Gradient evaluations: 30
+         Hessian evaluations: 0
+Run time 6.7 secs
+Vendor:  Continuum Analytics, Inc.
+Package: mkl
+Message: trial mode expires in 29 days
+C:\Users\tony\Anaconda\lib\site-packages\matplotlib\collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+Preparing plot...
+Preparing plot...
+...finished.

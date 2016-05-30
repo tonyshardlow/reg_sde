@@ -1,0 +1,54 @@
+=======================
+exp1 (concentric circles)
+Adding noise to landmarks with variance  0.01
+filename:  figs/E1_
+MultiShoot: Scale for p= 100000.0
+MultiShoot: solve with steps [5 5 5 5]  and total of  20  steps...
+Run time 0.2 secs
+The solution converged. Success= True
+Preparing plot...
+Set lambda =  0.01
+    sigma  =  0.004472135955
+    beta   =  1000.0
+Set epsilon_prior equal to data_var
+Set prior epsilon variance : 0.01
+SDELin: calculating mean and convariance...
+Computing conditional covariance with data variance:  0.01
+Run time 0.4 secs
+Preparing plot...
+Preparing plot...
+Preparing plot...
+...finished.
+=======================
+Adding noise to landmarks with variance  0.01
+filename:  figs/E2_
+Shoot: Solving with  20 steps...
+Run time 0.4 secs
+The solution converged. Success= True
+Preparing plot...
+Set lambda =  0.1
+    sigma  =  0.04472135955
+    beta   =  100.0
+Set epsilon_prior equal to data_var
+Set prior epsilon variance : 0.01
+SDELin: calculating mean and convariance...
+Computing conditional covariance with data variance:  0.01
+Run time 0.4 secs
+Preparing plot...
+Preparing plot...
+Preparing plot...
+...finished.
+=======================
+Vendor:  Continuum Analytics, Inc.
+Package: mkl
+Message: trial mode expires in 29 days
+C:\Users\tony\Anaconda\lib\site-packages\matplotlib\collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+C:\Users\tony\git\reg_sde\code\sde.py:584: RuntimeWarning: covariance is not positive-semidefinite.
+  out1=np.random.multivariate_normal(np.ravel(self.CondMean), CondCMat)
+Traceback (most recent call last):
+  File "run_supp_lin.py", line 93, in <module>
+    my_set(3)
+  File "run_supp_lin.py", line 85, in my_set
+    run(dict)
+UnboundLocalError: local variable 'dict' referenced before assignment

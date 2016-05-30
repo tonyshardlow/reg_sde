@@ -1,0 +1,329 @@
+===============================
+Loading data
+exp1 (concentric circles)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E1_   split1_a
+Set data var =  0.005
+Set lambda =  0.01
+    sigma  =  0.0707106781187
+    beta   =  4.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 19.781145
+         Iterations: 10
+         Function evaluations: 12
+         Gradient evaluations: 131
+         Hessian evaluations: 0
+Run time 4.7 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp1 (concentric circles)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E1_   split1_b
+Set data var =  0.005
+Set lambda =  0.01
+    sigma  =  0.0707106781187
+    beta   =  4.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 21.173530
+         Iterations: 5
+         Function evaluations: 6
+         Gradient evaluations: 28
+         Hessian evaluations: 0
+Run time 1.0 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp1 (concentric circles)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E1_   split1_c
+Set data var =  0.005
+Set lambda =  0.01
+    sigma  =  0.022360679775
+    beta   =  40.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 143.344807
+         Iterations: 9
+         Function evaluations: 10
+         Gradient evaluations: 98
+         Hessian evaluations: 0
+Run time 3.5 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp1 (concentric circles)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E1_   split1_d
+Set data var =  0.005
+Set lambda =  0.01
+    sigma  =  0.022360679775
+    beta   =  40.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 144.087060
+         Iterations: 8
+         Function evaluations: 9
+         Gradient evaluations: 72
+         Hessian evaluations: 0
+Run time 2.5 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+Adding noise to landmarks with variance  0.005
+filename:  figs/E2_   split1_a
+Set data var =  0.005
+Set lambda =  0.1
+    sigma  =  0.22360679775
+    beta   =  4.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 11.440159
+         Iterations: 7
+         Function evaluations: 9
+         Gradient evaluations: 83
+         Hessian evaluations: 0
+Run time 3.0 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+Adding noise to landmarks with variance  0.005
+filename:  figs/E2_   split1_b
+Set data var =  0.005
+Set lambda =  0.1
+    sigma  =  0.22360679775
+    beta   =  4.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 13.277342
+         Iterations: 6
+         Function evaluations: 7
+         Gradient evaluations: 54
+         Hessian evaluations: 0
+Run time 1.9 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+Adding noise to landmarks with variance  0.005
+filename:  figs/E2_   split1_c
+Set data var =  0.005
+Set lambda =  0.1
+    sigma  =  0.04472135955
+    beta   =  100.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 48.161990
+         Iterations: 6
+         Function evaluations: 7
+         Gradient evaluations: 42
+         Hessian evaluations: 0
+Run time 1.5 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+Adding noise to landmarks with variance  0.005
+filename:  figs/E2_   split1_d
+Set data var =  0.005
+Set lambda =  0.1
+    sigma  =  0.04472135955
+    beta   =  100.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 44.962870
+         Iterations: 6
+         Function evaluations: 7
+         Gradient evaluations: 46
+         Hessian evaluations: 0
+Run time 1.6 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp4 (ellipse,wrap)
+Loading from  data/wrap2.txt
+Loading from  data/ellipse2.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E4_   split1_a
+Set data var =  0.005
+Set lambda =  0.05
+    sigma  =  0.158113883008
+    beta   =  4.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 58.364138
+         Iterations: 6
+         Function evaluations: 11
+         Gradient evaluations: 50
+         Hessian evaluations: 0
+Run time 2.6 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp4 (ellipse,wrap)
+Loading from  data/wrap2.txt
+Loading from  data/ellipse2.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E4_   split1_b
+Set data var =  0.005
+Set lambda =  0.05
+    sigma  =  0.158113883008
+    beta   =  4.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 158.343737
+         Iterations: 4
+         Function evaluations: 7
+         Gradient evaluations: 30
+         Hessian evaluations: 0
+Run time 1.5 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp4 (ellipse,wrap)
+Loading from  data/wrap2.txt
+Loading from  data/ellipse2.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E4_   split1_c
+Set data var =  0.005
+Set lambda =  0.05
+    sigma  =  0.0316227766017
+    beta   =  100.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 223.012721
+         Iterations: 6
+         Function evaluations: 9
+         Gradient evaluations: 60
+         Hessian evaluations: 0
+Run time 3.0 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp4 (ellipse,wrap)
+Loading from  data/wrap2.txt
+Loading from  data/ellipse2.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.005
+filename:  figs/E4_   split1_d
+Set data var =  0.005
+Set lambda =  0.05
+    sigma  =  0.0316227766017
+    beta   =  100.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 204.845611
+         Iterations: 4
+         Function evaluations: 6
+         Gradient evaluations: 25
+         Hessian evaluations: 0
+Run time 1.2 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp5 (cat to dog etc. from datasets)
+Loading from  data/plane.txt
+Loading from  data/shark.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.00125
+filename:  figs/E5_   split1_a
+Set data var =  0.00125
+Set lambda =  0.1
+    sigma  =  0.632455532034
+    beta   =  0.5
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 29.470152
+         Iterations: 8
+         Function evaluations: 12
+         Gradient evaluations: 93
+         Hessian evaluations: 0
+Run time 4.7 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp5 (cat to dog etc. from datasets)
+Loading from  data/plane.txt
+Loading from  data/shark.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.00125
+filename:  figs/E5_   split1_b
+Set data var =  0.00125
+Set lambda =  0.1
+    sigma  =  0.632455532034
+    beta   =  0.5
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 71.442195
+         Iterations: 8
+         Function evaluations: 11
+         Gradient evaluations: 62
+         Hessian evaluations: 0
+Run time 3.2 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp5 (cat to dog etc. from datasets)
+Loading from  data/plane.txt
+Loading from  data/shark.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.00125
+filename:  figs/E5_   split1_c
+Set data var =  0.00125
+Set lambda =  0.1
+    sigma  =  0.04472135955
+    beta   =  100.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 191.760388
+         Iterations: 10
+         Function evaluations: 14
+         Gradient evaluations: 113
+         Hessian evaluations: 0
+Run time 5.8 secs
+Preparing plot...
+...finished.
+===============================
+Loading data
+exp5 (cat to dog etc. from datasets)
+Loading from  data/plane.txt
+Loading from  data/shark.txt
+(2L, 2L, 30L)
+Adding noise to landmarks with variance  0.00125
+filename:  figs/E5_   split1_d
+Set data var =  0.00125
+Set lambda =  0.1
+    sigma  =  0.04472135955
+    beta   =  100.0
+MAP1 solve with 25 steps...
+Optimization terminated successfully.
+         Current function value: 228.891608
+         Iterations: 5
+         Function evaluations: 6
+         Gradient evaluations: 34
+         Hessian evaluations: 0
+Run time 1.7 secs
+Preparing plot...
+Vendor:  Continuum Analytics, Inc.
+Package: mkl
+Message: trial mode expires in 29 days
+C:\Users\tony\Anaconda\lib\site-packages\matplotlib\collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+...finished.
