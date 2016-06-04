@@ -62,7 +62,7 @@ if __name__ == "__main__":
     noise_var=0.005
     dict=exp4(noise_var)
     # dict['lam']=  not relevant for split 1 prior
-    dict['beta']=20
+    dict['beta']=25
     dict['data_var']=noise_var
     exts=['a', 'b']
     for i in range(2):

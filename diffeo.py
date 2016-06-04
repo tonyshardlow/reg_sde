@@ -222,12 +222,10 @@ class Diffeo(Hamiltonian):
             nShoot=no_steps[1]
             mNoSteps=nStepsPerShoot*np.ones(nShoot,dtype=int)
             self._set_multiple_steps(mNoSteps)
-        elif isinstance(no_steps,int):
+        else:
             self.no_steps=no_steps
             self.dt = 1.0/(no_steps-1.0)
-        else:
-            assert False
-    #
+            #
     def _set_multiple_steps(self, stepsin):
         """
         Diffeo: stepsin is a vector of natural numbers,

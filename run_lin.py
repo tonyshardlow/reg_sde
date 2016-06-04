@@ -78,8 +78,10 @@ if __name__ == "__main__":
     noise_var=0.01
     #noise_var=0.05
     dict=exp1(noise_var)
-    dict=exp2(noise_var)
+    #dict=exp2(noise_var)
     #noise_var=0.0
-    dict=exp4(noise_var)
-    dict=exp5(noise_var)
+    #dict=exp4(noise_var)
+    #dict=exp5(noise_var)
+    dict['beta']=25
+    dict['lam']=0.1
     run(dict)

@@ -57,6 +57,8 @@ class SDE(Diffeo):
         self._set_lam_sig(1.0, 0.0001,False)
         self.c=1 # data term coeff
         self.TOL=1e-3 # for gradient checker
+        self.tol=1e-4 # for optimisation
+        self.xtol=1e-4 # for optimisation
     #
     def set_data_var(self, data_var, report_flag=True):
         """
@@ -71,7 +73,7 @@ class SDE(Diffeo):
         """
         SDE: Set heat bath params (lam=dissipation, beta=inv temp)
         """
-        sig=sqrt(2*lam/beta)
+        sig=np.sqrt(2.0*lam/beta)
         self._set_lam_sig(lam,sig,report_flag)
     #
     def _set_lam_sig(self, lam, sig, report_flag=False):
@@ -777,8 +779,8 @@ class MAP1(SDE):
         # exp2: 'CG' 59.2; 'Powell' 11.2; 'Newton-CG' 0.5; BFGS 15
         Pout=spo.minimize(self.objective, np.ravel(uin),
                           jac=self.gradient,
-                          tol=1e-1,method='Newton-CG',
-                          options={'xtol': 5e-3,'disp': 1})
+                          tol=self.tol,method='Newton-CG',
+                          options={'xtol': self.xtol,'disp': 1})
         end=timer()
         print("Run time %3.1f secs" % (end-start))
         #
@@ -1292,8 +1294,8 @@ class MAP4(SDE):
         # CG 7; Powell; BFGS 20; Newton-CG 2.5
         Pout=spo.minimize(self.objective, np.ravel(uin),
                           jac=self.gradient,
-                          tol=1e-1,method='Newton-CG',
-                          options={'xtol': 5e-3,'disp': 1})
+                          tol=self.tol,method='Newton-CG',
+                          options={'xtol': self.xtol,'disp': 1})
         end=timer()
         print("Run time %3.1f secs" % (end-start))
         #print(Pout['message'])

@@ -58,19 +58,19 @@ def run(dict,r=0):
 ####################################################################
 def my_set(i,j,r): # i=ten or two samps, j = experiment, r= which image
     noise_var=0.0
-    beta=20
+    beta=25
     lam=0.1
     if j==5:
-        beta=50
+        #beta=50
         dict=exp5(noise_var)
     if j==4:
-        beta=40
+        #beta=40
         dict=exp4(noise_var)
     if j==1:
         dict=exp1(noise_var)
     if j==2:
         dict=exp2(noise_var)
-        beta=50
+        #beta=50
         r=1
     #
     dict['beta']=beta
@@ -82,6 +82,9 @@ def my_set(i,j,r): # i=ten or two samps, j = experiment, r= which image
     if i==2:
         dict['ext']='ten'
         dict['num']=10
+    if i==3:
+        dict['ext']='fifty'
+        dict['num']=50
     dict['data_var']=noise_var+0.05
     run(dict,r)
 ######################
@@ -91,9 +94,7 @@ if __name__ == "__main__":
     #
     jlist=[1,2,4,5]
     rlist=[0,1,0,0]
-    jlist=[2]
-    rlist=[1]
     for k in range(len(jlist)):
         print(k)
-        for i in range(1,3):
+        for i in range(3,4):
             my_set(i,jlist[k], rlist[k])

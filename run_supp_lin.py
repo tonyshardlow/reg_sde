@@ -76,20 +76,22 @@ def my_set(i):
     if i==2:
         dict=exp2(noise_var)
     if i==4:
-        noise_var=0.0015
+        noise_var=0.0005
         dict=exp4(noise_var)
         dict['data_var']=0.005
     if i==5:
         noise_var=0.0025
         dict=exp5(noise_var)
         dict['data_var']=noise_var
+    dict['beta']=25
+    dict['lam']=0.1
     run(dict)
 ####################################################################
 if __name__ == "__main__":
     # do this
     plt.ion()
-    my_set(1)
-    my_set(2)
+    #my_set(1)
+    #my_set(2)
     my_set(4)
-    my_set(5)
+    #my_set(5)
     #

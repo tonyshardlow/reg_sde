@@ -44,7 +44,7 @@ def run(dict,canload=0):
     plot_setup()
     plt.axis('equal')
     plot_landmarks(dict['landmarks_n'],shadow=3,lw=0.2)
-    plt.savefig(filename+dict['ext']+'_samps.pdf',bbox_inches='tight') # lam
+    #plt.savefig(filename+dict['ext']+'_samps.pdf',bbox_inches='tight') # lam
     # plot landmarks with average and confidence ball
     plt.figure(1)
     plot_setup()
@@ -62,15 +62,15 @@ if __name__ == "__main__":
     plt.ion()
     #
     noise_var=0.0
-    dict=exp2(noise_var)
-    dict['beta']=55
+    dict=exp4(noise_var)
+    dict['beta']=25
     dict['lam']=0.1
     i=2
     if i==1:
         dict['ext']='two'
         dict['num']=2
     if i==2:
-        dict['ext']='ten'
-        dict['num']=10
+        dict['ext']='sixteen'
+        dict['num']=16
     dict['data_var']=noise_var+0.05
     run(dict)
