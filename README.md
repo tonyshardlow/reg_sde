@@ -1,7 +1,7 @@
 # Langevin equations for landmark image registration with uncertainty
 
-This Python code accompanies the paper "Langevin equations for landmark image registration with
-uncertainty", S. Marsland and T. Shardlow (2016).
+This Python code accompanies the paper [Langevin equations for landmark image registration with
+uncertainty](http://arxiv.org/abs/1605.09276), S. Marsland and T. Shardlow (2016).
 
     Registration of images parameterised by landmarks provides a useful method of 
     describing shape variations by computing the minimum-energy time-dependent deformation
@@ -15,4 +15,4 @@ uncertainty", S. Marsland and T. Shardlow (2016).
     distribution for the registration, and also to formulate an average of multiple sets of
     landmarks.
 
-The paper is available on Arxiv. Example sets and further explanation about the code are found in the [supplement](https://github.com/tonyshardlow/reg_sde/blob/master/sde_imag_supplement.pdf).
+ Example sets and further explanation about the code are found in the [supplement](https://github.com/tonyshardlow/reg_sde/blob/master/sde_imag_supplement.pdf).
